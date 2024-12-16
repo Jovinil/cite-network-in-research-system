@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'default' => 'neo4j',
+    'default' => env('DB_CONNECTION', 'sqlite'),
     /*
     |--------------------------------------------------------------------------
     | Database Connections
@@ -29,14 +29,6 @@ return [
     */
 
     'connections' => [
-
-        'neo4j' => [
-            'driver' => 'neo4j',
-            'host'   => 'localhost',
-            'port'   => 7687,
-            'username' => 'username',
-            'password' => 'password',
-        ],
 
         'sqlite' => [
             'driver' => 'sqlite',

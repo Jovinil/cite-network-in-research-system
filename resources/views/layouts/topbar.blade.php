@@ -7,12 +7,10 @@
             <li class="nav-item d-none d-md-block"> <a href="#" class="nav-link">Sample</a> </li>
         </ul> <!--end::Start Navbar Links--> <!--begin::End Navbar Links-->
         <ul class="navbar-nav ms-auto"> <!--begin::Navbar Search-->
-            <form action="#" method="post" id="logout-form-2" class="m-0 p-0">
-                @csrf
-                <li class="nav-item">
-                    <button type="submit" class="nav-link text-danger">Log out</button>
-                </li>
-            </form>
+        <!-- <form class="d-flex" role="search"> 
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> 
+            <button class="btn btn-outline-dark" type="submit">Search</button> 
+        </form> -->
             <li class="nav-item">
                 <a class="nav-link" data-widget="control-settings" data-slide="true" href="#" role="button">
                 <i class="fas fa-th-large"></i>
